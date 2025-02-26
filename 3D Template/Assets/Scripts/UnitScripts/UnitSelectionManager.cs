@@ -91,7 +91,7 @@ public class UnitSelectionManager : MonoBehaviour
         }
     }
 
-    private void DeselectAll()
+    public void DeselectAll()
     {
         foreach (var unit in unitsSelected)
         {
